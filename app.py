@@ -26,4 +26,4 @@ def categoria(categoria):
     abort(404)
 
 port=os.environ["PORT"]
-app.run('0.0.0.0',int(port), debug=True)
+app.run('0.0.0.0',int(port), debug=False)
